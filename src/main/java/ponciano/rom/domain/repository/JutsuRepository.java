@@ -1,8 +1,9 @@
-package ponciano.rom.rpgnarutoapi.domain.repository;
+package ponciano.rom.domain.repository;
 
+import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
-import ponciano.rom.rpgnarutoapi.domain.entity.Jutsu;
+import ponciano.rom.domain.entity.Jutsu;
 
 @Repository
-public abstract class JutsuRepository extends BaseRepository<Jutsu> {
+public interface JutsuRepository extends MongoRepository<Jutsu, String> {
 }

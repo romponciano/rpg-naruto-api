@@ -1,6 +1,6 @@
-package ponciano.rom.rpgnarutoapi.domain.model;
+package ponciano.rom.domain.model;
 
-import ponciano.rom.rpgnarutoapi.domain.entity.Characteristic;
+import ponciano.rom.domain.entity.Characteristic;
 
 import java.util.List;
 

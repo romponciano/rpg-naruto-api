@@ -1,4 +1,4 @@
-package ponciano.rom.rpgnarutoapi.domain.model;
+package ponciano.rom.domain.model;
 
 public class BasicInfo {
     private String name;

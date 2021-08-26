@@ -1,12 +1,11 @@
-package ponciano.rom.rpgnarutoapi.api;
+package ponciano.rom.api;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
-import ponciano.rom.rpgnarutoapi.domain.repository.BaseRepository;
-import ponciano.rom.rpgnarutoapi.domain.service.BaseService;
+import ponciano.rom.domain.service.BaseService;
 
-public abstract class BaseController<E, R extends BaseRepository<E>, S extends BaseService<E, R>> {
+public abstract class BaseController<E, R extends org.springframework.data.mongodb.repository.MongoRepository<E, String>, S extends BaseService<E, R>> {
     abstract S service();
 
     @PostMapping("/")

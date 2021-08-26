@@ -1,6 +1,6 @@
-package ponciano.rom.rpgnarutoapi.domain.dto;
+package ponciano.rom.domain.dto;
 
-import ponciano.rom.rpgnarutoapi.domain.model.Token;
+import ponciano.rom.domain.model.Token;
 
 public class TokenResponse extends Token {
     private Integer attack;

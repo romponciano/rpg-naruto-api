@@ -1,8 +1,8 @@
-package ponciano.rom.rpgnarutoapi.domain.service;
+package ponciano.rom.domain.service;
 
-import ponciano.rom.rpgnarutoapi.domain.repository.BaseRepository;
+import org.springframework.data.mongodb.repository.MongoRepository;
 
-public abstract class BaseService<E, R extends BaseRepository<E>> {
+public abstract class BaseService<E, R extends MongoRepository<E, String>> {
 
     abstract R repository();
 

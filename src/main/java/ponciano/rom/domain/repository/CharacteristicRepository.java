@@ -1,8 +1,9 @@
-package ponciano.rom.rpgnarutoapi.domain.repository;
+package ponciano.rom.domain.repository;
 
+import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
-import ponciano.rom.rpgnarutoapi.domain.entity.Characteristic;
+import ponciano.rom.domain.entity.Characteristic;
 
 @Repository
-public abstract class CharacteristicRepository extends BaseRepository<Characteristic> {
+public interface CharacteristicRepository extends MongoRepository<Characteristic, String> {
 }

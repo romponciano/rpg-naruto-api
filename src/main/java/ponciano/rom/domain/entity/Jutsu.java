@@ -1,4 +1,4 @@
-package ponciano.rom.rpgnarutoapi.domain.entity;
+package ponciano.rom.domain.entity;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

@@ -1,4 +1,4 @@
-package ponciano.rom.rpgnarutoapi.domain.model;
+package ponciano.rom.domain.model;
 
 public class Level {
     private Integer value;

@@ -1,13 +1,14 @@
-package ponciano.rom.rpgnarutoapi.domain.service;
+package ponciano.rom.domain.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ponciano.rom.rpgnarutoapi.domain.entity.Player;
-import ponciano.rom.rpgnarutoapi.domain.repository.PlayerRepository;
+import ponciano.rom.domain.entity.Player;
+import ponciano.rom.domain.repository.PlayerRepository;
 
 @Service
 public class PlayerService extends BaseService<Player, PlayerRepository> {
-    @Autowired private PlayerRepository repository;
+    @Autowired
+    private PlayerRepository repository;
 
     @Override
     PlayerRepository repository() {

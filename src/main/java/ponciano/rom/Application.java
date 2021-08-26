@@ -1,4 +1,4 @@
-package ponciano.rom.rpgnarutoapi;
+package ponciano.rom;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
