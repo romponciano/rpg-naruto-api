@@ -1,0 +1,1 @@
+web: java -Dmongo.uri=$MONGO_URI -Dserver.port=$PORT -jar target/rpg-naruto-api-1.0-SNAPSHOT.jar
